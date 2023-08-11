@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     background-color: #fff;
 }
@@ -23,21 +23,15 @@ ul {
 h2 {
     color: var(--navyblue);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 h3 {
     color: var(--navyblue);
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; 
+    font-weight: 500; 
     letter-spacing: 0.4px;
 }
 .hero {
@@ -46,11 +40,9 @@ h3 {
 h1 {
     color: var(--white);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 .hero .button-hero {
@@ -59,11 +51,7 @@ h1 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white, #FFF);
     text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.64px;
 }
 .button-hero:hover {
@@ -94,13 +82,13 @@ header {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.link-header {
+.link-top {
     color: var(--navyblue);
     font-weight: 500;
     text-decoration: none;
 }
-.link-header:active,
-.link-header:focus {
+.link-top:active,
+.link-top:focus {
     color: var(--ocean);
     display: flex;
     width: 48px;
@@ -115,26 +103,27 @@ header {
     color: var(--slate);
     text-decoration: none;
 }
-.link-contact:active {
+.link-contact:hover,
+.link-contact:focus {
     color: var(--ocean);
 }
-.footer {
+.basement {
     background-color: var(--navyblue)
 }
-.footer-text {
+.basement-text {
     color: var(--cloud);
 }
-.footer .link-logo {
+.basement .link-logo {
     color: var(--cloud)
 }
-.buttons-list {
+.filter {
     border-radius: 4px;
     border: 1px solid var(--cornflower);
     background: var(--cloud);
     font-weight: 500;
     cursor: pointer;
 }
-.buttons-list:hover {
+.filter:hover {
     border-radius: 4px;
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
