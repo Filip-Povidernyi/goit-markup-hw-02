@@ -20,7 +20,7 @@ body {
 .list {
     list-style-type: none;
 }
-.heading-2 {
+.heading-tw {
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
@@ -29,7 +29,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.heading-3 {
+.heading-th {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
