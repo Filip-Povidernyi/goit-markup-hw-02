@@ -1,11 +1,10 @@
 body {
-    color: var(--slate, #434455);
+    color: var(--slate);
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     background-color: var(--white);
 }
 :root {
@@ -63,30 +62,28 @@ body {
     background-color: var(--ocean);
 }
 .link-logo {
-    color: #4D5AE5;
+    color: var(--iris);
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.034em;
     text-transform: uppercase;
 }
 .link {
     text-decoration: none;
 }
 .logo-web {
-    color: #2e2f42;
+    color: var(--navyblue);
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.034em;
     text-transform: uppercase;
 }
 .link-top {
-    color: #2e2f42;
+    color: var(--navyblue);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -95,20 +92,20 @@ body {
 }
 .link-top:hover,
 .link-top:focus {
-    color: #404bbf;
+    color: var(--ocean);
 }
 .link-contact {
     font-style: normal
 }
 .contact {
-    color: #434455;
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .contact:hover,
 .contact:focus {
-    color: #404bbf;
+    color: var(--ocean);
 }
 .basement {
     background-color: var(--navyblue)
@@ -121,7 +118,7 @@ body {
 }
 .filter {
     font-family: "Roboto", sans-serif;
-    color: #4d5ae5;
+    color: var(--iris);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -131,17 +128,17 @@ body {
 }
 .filter:hover,
 .filter:focus {
-    color: #FFFFFF;
+    color: var(--white);
     background-color: var(--ocean);
 }
 .team {
-    background-color: #F4F4FD
+    background-color: var(--cloud);
 }
 .worker {
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 .paragraph {
-    color: #434455;
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
